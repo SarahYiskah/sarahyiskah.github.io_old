@@ -1,0 +1,25 @@
+div#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 10vh;
+}
+
+h3 {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+}
