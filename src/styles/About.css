@@ -1,1 +1,29 @@
+div#about img {
+    border: 1px solid #ddd;
+    /* border-radius: 100%; */
+    padding: 5px;
+    width: 400px;
+    height: 266.5px;
+}
 
+div#about p {
+  text-align: center;
+  /* margin-left: 10%;
+  margin-right: 10%; */
+  /* float: right;
+  margin-right: 10%;
+  margin-top: 5%; */
+}
+
+div#about {
+  margin-top: 5%;
+  height: 100vh;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#about a {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}

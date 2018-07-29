@@ -10,17 +10,29 @@ import Footer from './components/Footer'
 
 
 class App extends Component {
+  constructor() {
+    super()
+
+    this.state = {
+      active: 'about'
+    }
+  }
+
+  changeActive = (name) => {
+    this.setState({
+      active: name
+    })
+  }
+
   render() {
     return (
       <div className="App">
-      <h3>UNDER CONSTRUCTION</h3>
-      <p>The site will be live very soon</p>
-      // <Nav />
-      // <About />
-      // <Portfolio />
-      // <Blog />
-      // <Contact />
-      // <Footer />
+      <Nav active={this.state.active} changeActive={this.changeActive}/>
+      <About changeActive={this.changeActive}/>
+      <Portfolio changeActive={this.changeActive}/>
+      <Blog changeActive={this.changeActive}/>
+      <Contact changeActive={this.changeActive}/>
+      <Footer />
       </div>
     );
   }

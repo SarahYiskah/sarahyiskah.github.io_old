@@ -4,16 +4,31 @@ import '../styles/Nav.css'
 
 class Nav extends Component {
   render() {
+    console.log(this.props.active)
     return (
       <div id="nav">
-      <h3></h3>
-      <h3></h3>
-      <h3><a href="about">ABOUT</a></h3>
-      <h3><a href="#portfolio">PORTFOLIO</a></h3>
-      <h3><a href="#blog">BLOG</a></h3>
-      <h3><a href="#contact">CONTACT</a></h3>
-      <h3></h3>
-      <h3></h3>
+        <h3 style={{"fontWeight":"100"}}>SARAH YISKAH</h3>
+        ____
+        <h3
+          onClick={() => this.props.changeActive("about")}
+          style={this.props.active === "about" ? {"text-decoration": "underline"} : null }>
+          <a href="#about">About</a>
+        </h3>
+        <h3
+          onClick={() => this.props.changeActive("portfolio")}
+          style={this.props.active === "portfolio" ? {"text-decoration": "underline"} : null }>
+          <a href="#portfolio">Projects</a>
+        </h3>
+        <h3
+          onClick={() => this.props.changeActive("blog")}
+          style={this.props.active === "blog" ? {"text-decoration": "underline"} : null }>
+          <a href="#blog">Blog</a>
+        </h3>
+        <h3
+          onClick={() => this.props.changeActive("contact")}
+          style={this.props.active === "contact" ? {"text-decoration": "underline"} : null }>
+          <a href="#contact">Contact</a>
+        </h3>
       </div>
     );
   }

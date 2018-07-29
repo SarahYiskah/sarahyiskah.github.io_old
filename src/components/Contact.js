@@ -20,7 +20,8 @@ class Contact extends Component {
 
   render() {
     return (
-      <div id="contact">
+      <div id="contact" onMouseOver={() => this.props.changeActive("contact")}>
+      <h1>CONTACT ME</h1>
         <form>
           <input type="text" placeholder="name" name="name" value={this.state.name} onChange={this.handleChange}/><br/>
           <input type="text" placeholder="email" name="email" value={this.state.email} onChange={this.handleChange}/><br/>
