@@ -9,7 +9,7 @@ div#portfolio {
   right: 0;
   z-index: 900;
   color: #3D2B5A;
-  height: 1350px;
+  height: 1650px;
 }
 
 div#portfolio .title {
@@ -23,8 +23,8 @@ div#portfolio .title {
 }
 
 div#portfolio .info {
-  margin-top: 10%;
-  margin-left: 13%;
+  margin-top: 16%;
+  margin-left: 16%;
   margin-right: 13%;
 }
 
@@ -68,6 +68,19 @@ div#project2 h1.number {
   margin-right: 8%;
 }
 
+div.projectContainer div.links p {
+  display: inline-block;
+  color: #3D2B5A;
+  text-decoration: none;
+}
+
+div.projectContainer div.links {
+  margin: 0;
+  padding: 0;
+  color: #FF9298;
+  text-decoration: underline;
+}
+
 div.projectContainer .languages {
   font-family: 'Chivo', sans-serif;
   letter-spacing: 3px;
@@ -78,13 +91,13 @@ div.projectContainer .languages span{
   color: #3D2B5A;
 }
 div.projectContainer div#project1 {
-  margin-top: 8%;
+  margin-top: 15%;
 }
 div.projectContainer div#project2 {
-  margin-top: 8%;
+  margin-top: 15%;
 }
 div.projectContainer div#project3 {
-  margin-top: 8%;
+  margin-top: 15%;
 }
 
 div.projectContainer div#project1 h1 {
@@ -132,7 +145,8 @@ div.projectContainer div#project3 .languages {
 
 div.projectContainer div#project1 .description {
   float: left;
-  margin-left: -36%;
+  text-align: left;
+  margin-left: -34%;
   width: 40%;
   margin-top: 50px;
   position: relative;
@@ -141,6 +155,7 @@ div.projectContainer div#project1 .description {
 
 div.projectContainer div#project2 .description {
   float: right;
+  text-align: right;
   margin-right: -33%;
   width: 40%;
   margin-top: 50px;
@@ -149,9 +164,36 @@ div.projectContainer div#project2 .description {
 }
 div.projectContainer div#project3 .description {
   float: left;
-  margin-left: -42%;
+  text-align: left;
+  margin-left: -37.5%;
   width: 40%;
   margin-top: 50px;
+  position: relative;
+  z-index: 950;
+}
+
+div.projectContainer div#project1 .links {
+  float: left;
+  text-align: left;
+  margin-top: -5%;
+  margin-left: -6%;
+  position: relative;
+  z-index: 950;
+}
+
+div.projectContainer div#project2 .links {
+  float: right;
+  text-align: right;
+  margin-top: -3.5%;
+  margin-right: -4.5%;
+  position: relative;
+  z-index: 950;
+}
+div.projectContainer div#project3 .links {
+  float: left;
+  text-align: left;
+  margin-top: -5%;
+  margin-left: -6%;
   position: relative;
   z-index: 950;
 }
@@ -207,6 +249,12 @@ div.projectContainer button {
   font-size: 1.2em;
   background-color: #3D2B5A;
   color: white;
+}
+
+div#portfolio h1#coding {
+  font-size: 4em;
+  margin-right: 15%;
+  text-align: right;
 }
 
 .modal {

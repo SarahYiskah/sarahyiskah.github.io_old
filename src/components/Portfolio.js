@@ -87,30 +87,36 @@ class Portfolio extends Component {
               <h1 className="title">MUSICO</h1><span className="line">          __________________________________</span>
               <p className="languages">HTML5 <span className="dot">&#8231;</span> CSS <span className="dot">&#8231;</span> JAVASCRIPT</p>
               <p className="description">Best app for playing music of shared interest between friends</p>
-              <p className="details">+ Used Firebase to show live updates <br/>
-              + Used the Spotify api to authenticate users, search playlists and play music <br/>
-              + Built it as a progressive web app so that it is compatible with phones and computers <br/>
-              + Used custom CSS to create a clean ui <br/>
+              <p className="details">+ Used Firebase to show live updates<br/>
+              + Used the Spotify api to authenticate users, search playlists and play music<br/>
+              + Built it as a progressive web app so that it is compatible with phones and computers<br/>
+              + Used custom CSS to create a clean ui<br/>
               + Hosted on Firebase
               </p>
-              <a href="https://github.com/SarahYiskah/musico-frontend" target="_blank">Github Frontend</a>
-              <a href="https://github.com/SarahYiskah/musico-backend" target="_blank">Github Backend</a>
-              <a href="http://musico-backend.herokuapp.com/login" target="_blank">Live App</a>
+              <div className="links">
+              <p>Links: </p>
+              <a style={{"margin-left":"5px"}} href="https://github.com/SarahYiskah/musico-frontend" target="_blank">Github Frontend</a>
+              <a style={{"margin-left":"5px"}} href="https://github.com/SarahYiskah/musico-backend" target="_blank">Github Backend</a>
+              <a style={{"margin-left":"5px"}} href="http://musico-backend.herokuapp.com/login" target="_blank">Live App</a>
+              </div>
               <br/>
               <button onClick={() => this.openModal("musico")}>Video Demo</button>
             </div>
             <div id="project2">
               <h1 className="number">2</h1>
-              <span className="line">______________________________          </span><h1 className="title">GAME NIGHT</h1>
+              <span className="line">_____________________________          </span><h1 className="title">GAME NIGHT</h1>
               <p className="languages">HTML5 <span className="dot">&#8231;</span> CSS <span className="dot">&#8231;</span> JAVASCRIPT</p>
               <p className="description">Great way to play live Rummikub with friends online</p>
-              <p className="details">+ Used Firebase to make live connections between friends <br/>
-              + Used HTML and Javascript to create ‘drag and drop’ functionality <br/>
-              + Used mostly custom css to create a clean and fun design <br/>
+              <p className="details">+ Used Firebase to make live connections between friends<br/>
+              + Used HTML and Javascript to create ‘drag and drop’ functionality<br/>
+              + Used mostly custom css to create a clean and fun design<br/>
               + Hosted on Heroku
               </p>
-              <a href="https://github.com/SarahYiskah/Game-Night" target="_blank">Github</a>
-              <a href="http://game-night-app.herokuapp.com/" target="_blank">Live App</a>
+              <div className="links">
+              <p>Links: </p>
+              <a style={{"margin-left":"5px"}} href="https://github.com/SarahYiskah/Game-Night" target="_blank">Github</a>
+              <a style={{"margin-left":"5px"}} href="http://game-night-app.herokuapp.com/" target="_blank">Live App</a>
+              </div>
               <br/>
               <button onClick={() => this.openModal("gameNight")}>Video Demo</button>
             </div>
@@ -120,19 +126,24 @@ class Portfolio extends Component {
               <p className="languages"> HTML5 <span className="dot">&#8231;</span> CSS <span className="dot">&#8231;</span> RUBY <span className="dot">&#8231;</span> JAVASCRIPT</p>
               <p className="description">Best way to plan trips with your friends</p>
               <p className="details">
-              + Used JWT to build custom authentication and authorization functionality <br/>
-              + Built APIs using Ruby on Rails and the MVC pattern <br/>
-              + Used FourSquare API to make real time fetch requests <br/>
+              + Used JWT to build custom authentication and authorization functionality<br/>
+              + Built APIs using Ruby on Rails and the MVC pattern<br/>
+              + Used FourSquare API to make real time fetch requests<br/>
               + Hosted on Heroku
               </p>
-              <a href="https://github.com/SarahYiskah/trippy-front-end" target="_blank">Github Frontend</a>
-              <a href="https://github.com/SarahYiskah/trippy-backend" target="_blank">Github Backend</a>
-              <a href="https://trippy-app.herokuapp.com/" target="_blank">Live App</a>
+              <div className="links">
+              <p>Links: </p>
+              <a style={{"margin-left":"5px"}} href="https://github.com/SarahYiskah/trippy-front-end" target="_blank">Github Frontend</a>
+              <a style={{"margin-left":"5px"}} href="https://github.com/SarahYiskah/trippy-backend" target="_blank">Github Backend</a>
+              <a style={{"margin-left":"5px"}} href="https://trippy-app.herokuapp.com/" target="_blank">Live App</a>
+              </div>
               <br/>
               <button onClick={() => this.openModal("trippy")}>Video Demo</button>
             </div>
           </div>
       }
+      <br/><br/>
+      <h1 id="coding">&lt;/&gt;</h1>
       </div>
       </div>
     );

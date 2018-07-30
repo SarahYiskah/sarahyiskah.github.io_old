@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
 div#footer {
+  background-color: #3D2B5A;
+  padding-top: 10%;
+  padding-bottom: 6%;
   position: absolute;
-  top: 2690px;
+  top: 3590px;
   left: 0;
   right: 0;
-  height: 25px;
+  height: 70px;
   z-index: 950;
 }

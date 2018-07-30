@@ -1,12 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
 #blog a{
   color: black;
 }
 
 div#blog {
   position: absolute;
-  top: 1990px;
+  top: 2290px;
   left: 0;
   right: 0;
-  height: 700px;
+  height: 600px;
   margin-top: 5%;
+}
+
+div#blog img {
+  margin-top: -5%;
+  padding-top: 0;
+  width: 1440px;
+  height: 591px;
+  border-bottom: 40px solid #FF9298;
+}
+
+
+div#blog .title {
+  font-weight: 900;
+  font-family: 'Chivo', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  position: relative;
+  z-index: 900;
+  color: white;
+  margin-top: -28%;
+}
+
+div#blog div#post {
+  margin-top: 30%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 2px solid #E6E6E6;
+  border-radius: 6px;
+  text-align: left;
+}
+
+div#blog div#post img {
+  height: 240px;
+  width: 870px;
+  border-bottom: none;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+div#blog div#post h2 {
+  color: #3D2B5A;
+  padding-left: 6.5%;
+  padding-bottom: 0;
+}
+
+#blog div#button {
+  margin-top: 3%;
+  margin-left: 40%;
+  margin-right: 40%;
+  padding: 15px;
+  font-size: 1.2em;
+  background-color: #3D2B5A;
+  border: 1px solid #3D2B5A;
+  border-radius: 8px;
+}
+
+#blog div#button a {
+  color: white;
+}
+
+#blog p#deets {
+  color: #9F9F9F;
+  padding-left: 6.5%;
 }
