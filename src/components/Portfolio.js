@@ -84,7 +84,7 @@ class Portfolio extends Component {
         : <div className="projectContainer">
             <div id="project1">
             <h1 className="number">1</h1>
-              <h1 className="title">MUSICO</h1><span className="line">          ____________________________________________</span>
+              <h1 className="title">MUSICO</h1><span className="line">          _______________________________________</span>
               <p className="languages">HTML5 <span className="dot">&#8231;</span> CSS <span className="dot">&#8231;</span> JAVASCRIPT</p>
               <p className="description">Best app for playing music of shared interest between friends</p>
               <p className="details">+ Used Firebase to show live updates <br/>
@@ -101,7 +101,7 @@ class Portfolio extends Component {
             </div>
             <div id="project2">
               <h1 className="number">2</h1>
-              <span className="line">________________________________________          </span><h1 className="title">GAME NIGHT</h1>
+              <span className="line">___________________________________          </span><h1 className="title">GAME NIGHT</h1>
               <p className="languages">HTML5 <span className="dot">&#8231;</span> CSS <span className="dot">&#8231;</span> JAVASCRIPT</p>
               <p className="description">Great way to play live Rummikub with friends online</p>
               <p className="details">+ Used Firebase to make live connections between friends <br/>
@@ -116,7 +116,7 @@ class Portfolio extends Component {
             </div>
             <div id="project3">
             <h1 className="number">3</h1>
-              <h1 className="title">TRIPPY</h1><span className="line">          _____________________________________________</span>
+              <h1 className="title">TRIPPY</h1><span className="line">          ________________________________________</span>
               <p className="languages"> HTML5 <span className="dot">&#8231;</span> CSS <span className="dot">&#8231;</span> RUBY <span className="dot">&#8231;</span> JAVASCRIPT</p>
               <p className="description">Best way to plan trips with your friends</p>
               <p className="details">
