@@ -4,10 +4,9 @@ import '../styles/Nav.css'
 
 class Nav extends Component {
   render() {
-    console.log(this.props.active)
     return (
       <div id="nav">
-        <h3 style={{"fontWeight":"100"}}>SARAH YISKAH</h3>
+        <h3 className="title" style={{"fontWeight":"100", "paddingTop":"15px"}}>SARAH YISKAH</h3>
         ____
         <h3
           onClick={() => this.props.changeActive("about")}
@@ -24,11 +23,11 @@ class Nav extends Component {
           style={this.props.active === "blog" ? {"text-decoration": "underline"} : null }>
           <a href="#blog">Blog</a>
         </h3>
-        <h3
+        {/*<h3
           onClick={() => this.props.changeActive("contact")}
           style={this.props.active === "contact" ? {"text-decoration": "underline"} : null }>
           <a href="#contact">Contact</a>
-        </h3>
+        </h3>*/}
       </div>
     );
   }

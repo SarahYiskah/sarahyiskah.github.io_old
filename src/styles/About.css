@@ -1,29 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
+div#about #background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #FF9298;
+  margin-top: 0;
+  height: 640px;
+  z-index: 500;
+}
+
 div#about img {
-    border: 1px solid #ddd;
-    /* border-radius: 100%; */
+  position: relative;
     padding: 5px;
-    width: 400px;
-    height: 266.5px;
+    width: 395.5px;
+    height: 533px;
+    margin-left: 10%;
+    float: left;
+    z-index: 940;
 }
 
-div#about p {
-  text-align: center;
-  /* margin-left: 10%;
-  margin-right: 10%; */
-  /* float: right;
-  margin-right: 10%;
-  margin-top: 5%; */
+div#about .text {
+  color: white;
+  position: relative;
+  float: right;
+  margin-right: 15%;
+  width: 450px;
+  height: 533px;
+  text-align: left;
+  line-height: 30px;
+  z-index: 950;
+  letter-spacing: 1px;
 }
 
-div#about {
-  margin-top: 5%;
-  height: 100vh;
-  margin-left: 10%;
-  margin-right: 10%;
+div#about .text .title {
+  font-family: 'Chivo', sans-serif;
+  letter-spacing: 5px;
+  font-size: 2.5em;
 }
+
+div#about .text #coding {
+  color: #3D2B5A;
+  font-weight: 900;
+  font-size: 4em;
+}
+
+div#about #baseline {
+  position: relative;
+  color: #3D2B5A;
+  z-index: 950;
+  float: left;
+  margin-left: -7.5%;
+  font-weight: 900;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+div#about .info{
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+
 
 #about a {
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 2px;
+  padding: 15px;
+  font-size: 1.2em;
+  background-color: #3D2B5A;
+  border: 1px solid #3D2B5A;
+  border-radius: 8px;
 }

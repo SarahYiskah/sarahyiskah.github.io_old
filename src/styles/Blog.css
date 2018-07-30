@@ -2,9 +2,11 @@
   color: black;
 }
 
-#blog {
-  height: 100vh;
-  margin-left: 10%;
-  margin-right: 10%;
+div#blog {
+  position: absolute;
+  top: 1990px;
+  left: 0;
+  right: 0;
+  height: 700px;
   margin-top: 5%;
 }
