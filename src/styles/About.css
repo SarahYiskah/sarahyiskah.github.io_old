@@ -2,7 +2,7 @@
 
 div#about #background{
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   right: 0;
   background-color: #FF9298;
@@ -10,6 +10,18 @@ div#about #background{
   height: 640px;
   z-index: 500;
 }
+
+div#about #alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 980;
+  color: white;
+  background-color: #3D2B5A;
+  height: 50px;
+}
+
 
 div#about img {
   position: relative;

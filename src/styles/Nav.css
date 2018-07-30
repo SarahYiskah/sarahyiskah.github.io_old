@@ -12,7 +12,7 @@ div#nav {
   justify-content: space-between;
   align-items: flex-start;
   position: fixed;
-  top: 0;
+  top: 50px;
   left: 0;
   right: 0;
   z-index: 950;
