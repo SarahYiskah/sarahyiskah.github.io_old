@@ -142,7 +142,7 @@ class Portfolio extends Component {
             </div>
           </div>
       }
-      <br/><br/>
+      <br/><br/><br/>
       <h1 id="coding">&lt;/&gt;</h1>
       </div>
       </div>
