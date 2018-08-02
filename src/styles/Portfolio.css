@@ -1,10 +1,27 @@
-@import url('https://fonts.googleapis.com/css?family=Chivo');
+ @import url('https://fonts.googleapis.com/css?family=Chivo');
 
+div#portfolio {
+  background-color: #F4F4F4;
+  margin-top: -5%;
+}
+
+div#portfolio .title {
+  padding-top: 12%;
+  font-weight: 900;
+  font-family: 'Chivo', sans-serif;
+  font-size: 2.5em;
+  letter-spacing: 5px;
+  position: relative;
+  z-index: 900;
+  color: #3D2B5A;
+}
+
+/*
 
 div#portfolio {
   position: absolute;
   background-color: #F4F4F4;
-  top: 640px;
+  top: 80vh;;
   left: 0;
   right: 0;
   z-index: 900;
@@ -280,6 +297,11 @@ div#portfolio h1#coding {
   height: 643.2px;
 }
 
+.modal.musico {
+  width: 960px;
+  height: 546.6px;
+}
+
 
 
 .backdrop {
@@ -290,4 +312,4 @@ div#portfolio h1#coding {
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   z-index: 100;
-}
+} */
