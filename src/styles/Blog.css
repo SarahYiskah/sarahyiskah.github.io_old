@@ -1,23 +1,18 @@
-/* @import url('https://fonts.googleapis.com/css?family=Chivo');
+@import url('https://fonts.googleapis.com/css?family=Chivo');
 
 #blog a{
   color: black;
 }
 
 div#blog {
-  position: absolute;
-  top: 2290px;
-  left: 0;
-  right: 0;
-  height: 600px;
   margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 div#blog img {
   margin-top: -5%;
   padding-top: 0;
-  width: 1440px;
-  height: 591px;
+  width: 100%;
   border-bottom: 40px solid #FF9298;
 }
 
@@ -43,8 +38,8 @@ div#blog div#post {
 }
 
 div#blog div#post img {
-  height: 240px;
-  width: 870px;
+  position: relative;
+  width: 90%;
   border-bottom: none;
   text-align: center;
   margin: 0 auto;
@@ -75,4 +70,4 @@ div#blog div#post h2 {
 #blog p#deets {
   color: #9F9F9F;
   padding-left: 6.5%;
-} */
+}

@@ -5,84 +5,143 @@ div#portfolio {
   margin-top: -5%;
 }
 
-div#portfolio .title {
+div#portfolio #title {
   padding-top: 12%;
+  margin-bottom: 5%;
   font-weight: 900;
   font-family: 'Chivo', sans-serif;
-  font-size: 2.5em;
+  font-size: 3em;
   letter-spacing: 5px;
   position: relative;
-  z-index: 900;
+  z-index: 920;
   color: #3D2B5A;
 }
 
-/*
 
-div#portfolio {
-  position: absolute;
-  background-color: #F4F4F4;
-  top: 80vh;;
-  left: 0;
-  right: 0;
-  z-index: 900;
+div#portfolio h1#coding {
+  font-size: 4em;
+  position: relative;
+  margin-right: 24%;
+  text-align: right;
   color: #3D2B5A;
-  height: 1650px;
+  margin-bottom: -50px;
 }
 
 div#portfolio .title {
+  position: relative;
+  padding-top: 0;
+  margin-top: 1%;
   font-weight: 900;
   font-family: 'Chivo', sans-serif;
   font-size: 2.5em;
   letter-spacing: 5px;
-  position: relative;
-  z-index: 900;
+  z-index: 920;
   color: #3D2B5A;
-}
-
-div#portfolio .info {
-  margin-top: 16%;
-  margin-left: 16%;
-  margin-right: 13%;
-}
-
-div.projectContainer span.line {
-  margin-top: 0;
-  margin-top: 10px;
-  font-size: 3em;
-  letter-spacing: 0;
-}
-
-div.projectContainer h1.title {
-  font-weight: 900;
-  font-family: 'Chivo', sans-serif;
-  letter-spacing: 5px;
-  display: inline-block;
 }
 
 div.projectContainer .number {
   position: relative;
-  margin-top: -5%;
   padding-top: 0;
-  z-index: 920;
-  font-family: 'Chivo', sans-serif;
-  color: white;
+  margin-top: -5%;
   font-weight: 900;
+  font-family: 'Chivo', sans-serif;
   font-size: 11em;
+  z-index: 910;
+  color: white;
 }
 
 div#project1 h1.number {
   float: left;
-  margin-left: 8%;
+  margin-left: 15%;
 }
 
 div#project3 h1.number {
   float: left;
-  margin-left: 8%;
+  margin-left: 15%;
 }
 
 div#project2 h1.number {
   float: right;
-  margin-right: 8%;
+  margin-right: 15%;
+}
+
+
+div.projectContainer div#project1 h1.title {
+  float: left;
+  margin-left: -4.5%;
+  z-index: 950;
+}
+
+div.projectContainer div#project2 h1.title {
+  float: right;
+  margin-right: -4.5%;
+  z-index: 950;
+}
+
+div.projectContainer div#project3 h1.title {
+  float: left;
+  margin-left: -4.5%;
+  z-index: 950;
+}
+
+div.projectContainer hr.line {
+  position: relative;
+  border: none;
+  border-bottom: 5px solid #3D2B5A;
+  height: 2.2em;
+  background-color: #F4F4F4;
+}
+
+div.projectContainer div#project1 hr.line {
+  width: 50%;
+  margin-right: 15%;
+}
+
+div.projectContainer div#project2 hr.line {
+  width: 42%;
+  margin-left: 15%;
+}
+div.projectContainer div#project3 hr.line{
+  width: 50%;
+  margin-right: 15%;
+}
+
+div#project1 {
+  position: relative;
+  margin-top: 5%;
+}
+
+div#project2 {
+  position: relative;
+  margin-top: 5%;
+}
+
+div#project3 {
+  position: relative;
+  margin-top: 5%;
+}
+
+div.projectContainer div.section1 {
+  text-align: left;
+}
+
+div.projectContainer div.section2 {
+  text-align: right;
+}
+
+div.projectContainer button {
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #3D2B5A;
+  font-size: 1.2em;
+  background-color: #3D2B5A;
+  color: white;
+}
+
+div.projectContainer div.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
 }
 
 div.projectContainer div.links p {
@@ -98,15 +157,67 @@ div.projectContainer div.links {
   text-decoration: underline;
 }
 
+div.projectContainer div.links a:hover {
+  color: #3D2B5A;
+}
+
+div.projectContainer .languages span{
+  color: #3D2B5A;
+}
+
 div.projectContainer .languages {
   font-family: 'Chivo', sans-serif;
   letter-spacing: 3px;
   color: #FF9298;
 }
 
-div.projectContainer .languages span{
-  color: #3D2B5A;
+div.projectContainer div#project1 .details {
+  position: relative;
+  font-weight: bold;
+  z-index: 950;
 }
+
+div.projectContainer div#project2 .details {
+  position: relative;
+  font-weight: bold;
+  z-index: 950;
+}
+div.projectContainer div#project3 .details {
+  position: relative;
+  font-weight: bold;
+  z-index: 950;
+}
+
+div.projectContainer div#project1 div.container {
+  margin-right: 15%;
+  margin-left: 0;
+}
+
+div.projectContainer div#project2 div.container {
+  margin-left: 15%;
+  margin-right: 0;
+}
+div.projectContainer div#project3 div.container {
+  margin-right: 15%;
+  margin-left: 0;
+}
+
+
+/*
+
+div#portfolio {
+  position: absolute;
+  background-color: #F4F4F4;
+  top: 80vh;;
+  left: 0;
+  right: 0;
+  z-index: 900;
+  color: #3D2B5A;
+  height: 1650px;
+}
+
+
+
 div.projectContainer div#project1 {
   margin-top: 15%;
 }
@@ -117,25 +228,6 @@ div.projectContainer div#project3 {
   margin-top: 15%;
 }
 
-div.projectContainer div#project1 h1 {
-  float: left;
-  margin-left: -6%;
-  position: relative;
-  z-index: 950;
-}
-
-div.projectContainer div#project2 h1 {
-  float: right;
-  margin-right: -6%;
-  position: relative;
-  z-index: 950;
-}
-div.projectContainer div#project3 h1 {
-  float: left;
-  margin-left: -6%;
-  position: relative;
-  z-index: 950;
-}
 
 div.projectContainer div#project1 .languages {
   float: left;
@@ -224,13 +316,7 @@ div.projectContainer div#project1 button {
   z-index: 950;
 }
 
-div.projectContainer div#project2 button {
-  float: right;
-  margin-top: 0;
-  margin-right: -5%;
-  position: relative;
-  z-index: 950;
-}
+
 div.projectContainer div#project3 button {
   float: left;
   margin-top: 0;
@@ -239,40 +325,7 @@ div.projectContainer div#project3 button {
   z-index: 950;
 }
 
-div.projectContainer div#project1 .details {
-  text-align: right;
-  position: relative;
-  font-weight: bold;
-  z-index: 950;
-}
 
-div.projectContainer div#project2 .details {
-  text-align: left;
-  position: relative;
-  font-weight: bold;
-  z-index: 950;
-}
-div.projectContainer div#project3 .details {
-  text-align: right;
-  position: relative;
-  font-weight: bold;
-  z-index: 950;
-}
-
-div.projectContainer button {
-  padding: 15px;
-  border-radius: 10px;
-  border: 1px solid #3D2B5A;
-  font-size: 1.2em;
-  background-color: #3D2B5A;
-  color: white;
-}
-
-div#portfolio h1#coding {
-  font-size: 4em;
-  margin-right: 15%;
-  text-align: right;
-}
 
 .modal {
   height: 80%;
