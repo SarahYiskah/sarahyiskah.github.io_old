@@ -14,6 +14,7 @@ class About extends Component {
         <img src={require('../images/profilepic.jpeg')} />
         <h1 id="baseline">________</h1>
         </div>
+        <div id="aboutFiller" />
         <div id="about2" className="text">
           <h1 className="title">ABOUT ME</h1>
           <p>Hi there! <br/><br/>

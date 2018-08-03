@@ -120,17 +120,18 @@ div.projectContainer div#project3 hr.line{
 
 div#project1 {
   position: relative;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 div#project2 {
   position: relative;
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 div#project3 {
   position: relative;
-  margin-top: 5%;
+  margin-top: 10%;
+  margin-bottom: 5%;
 }
 
 div.projectContainer div.section1 {

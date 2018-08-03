@@ -27,7 +27,7 @@ div#about #alert {
 div#aboutContainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
 }
@@ -37,24 +37,32 @@ div#about {
   width: 100%;
 }
 
+div#aboutContainer div.placeholder {
+  flex: 2;
+}
+
+div#aboutContainer div#aboutFiller {
+  flex: 1;
+  min-width: 75px;
+}
 
 div#about1 {
-  flex: 1;
+  flex: 5;
   margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 5%;
+  /* margin-left: 20%;
+  margin-right: 5%; */
   height: 500px;
   position: relative;
 }
 
 div#about2 {
-  flex: 1;
+  flex: 5;
   min-width: 345px;
   max-width: 30%;
   height: 535px;
   margin-top: 10%;
-  margin-right: 15%;
-  margin-left: 5%;
+  /* margin-right: 15%;
+  margin-left: 5%; */
   text-align: left;
   line-height: 30px;
   z-index: 950;
