@@ -12,6 +12,17 @@ div#about img {
   z-index: 920;
 }
 
+div#about #alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 980;
+  color: white;
+  background-color: #3D2B5A;
+  height: 50px;
+}
+
 
 div#aboutContainer {
   display: flex;
@@ -98,16 +109,7 @@ div#about .text .title {
     z-index: 500;
   }
 
-  div#about #alert {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 980;
-    color: white;
-    background-color: #3D2B5A;
-    height: 50px;
-  }
+
 
 
   div#about img {
