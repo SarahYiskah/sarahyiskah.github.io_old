@@ -14,7 +14,7 @@ class Blog extends Component {
       <img src={require('../images/coding-pic.jpg')} />
       </a><br/>
       </div>
-      <div id="button"><a href="https://medium.com/@97sarahy/" target="_blank">More Articles</a></div>
+      <a href="https://medium.com/@97sarahy/" target="_blank"><div id="button">More Articles</div></a>
       </div>
     );
   }
