@@ -59,21 +59,21 @@ class Portfolio extends Component {
         ? <div>
           {this.state.currentProject === "trippy"
           ? <div className="modal trippy">
-              <video height="533" width="960" autoPlay controls>
+              <video width="100%" autoPlay controls>
                 <source src={require("../videos/Trippy App.mp4")} type="video/mp4"/>
                 Your browser does not support the video tag.
               </video>
             </div>
           : this.state.currentProject === "gameNight"
           ? <div className="modal gameNight">
-            <video width="574.4" height="643.2" autoPlay controls>
+            <video width="100%" autoPlay controls>
               <source src={require("../videos/GameNight.mp4")} type="video/mp4"/>
               Your browser does not support the video tag.
             </video>
           </div>
           : this.state.currentProject === "musico"
           ?  <div className="modal musico">
-              <video width="960" height="546.6" autoPlay controls>
+              <video width="100%" autoPlay controls>
                 <source src={require("../videos/Musico.mp4")} type="video/mp4"/>
                 Your browser does not support the video tag.
               </video>

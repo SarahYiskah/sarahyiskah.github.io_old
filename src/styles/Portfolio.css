@@ -98,7 +98,7 @@ div.projectContainer div#project1 hr.line {
 }
 
 div.projectContainer div#project2 hr.line {
-  width: 42%;
+  width: 40%;
   margin-left: 15%;
 }
 div.projectContainer div#project3 hr.line{
@@ -195,7 +195,6 @@ div.projectContainer div#project1 div.container {
 
 div.projectContainer div#project2 div.container {
   margin-left: 15%;
-  margin-right: 0;
 }
 div.projectContainer div#project3 div.container {
   margin-right: 15%;
@@ -205,34 +204,29 @@ div.projectContainer div#project3 div.container {
 
 
 .modal {
-  height: 80%;
   background-color: white;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
   z-index: 200;
   padding: 5% 0;
   border-radius: 10px;
 }
 
 .modal.trippy {
-  width: 960px;
-  height: 553px;
+  width: 60%;
 }
 
 .modal.gameNight {
-  width: 574.4px;
-  height: 643.2px;
+  z-index: 999;
+  width: 40%;
 }
 
 .modal.musico {
-  width: 960px;
-  height: 546.6px;
+  z-index: 999;
+  width: 60%;
 }
-
-
 
 .backdrop {
   position: fixed;
@@ -243,128 +237,3 @@ div.projectContainer div#project3 div.container {
   background: rgba(0, 0, 0, 0.6);
   z-index: 100;
 }
-
-
-/*
-
-div#portfolio {
-  position: absolute;
-  background-color: #F4F4F4;
-  top: 80vh;;
-  left: 0;
-  right: 0;
-  z-index: 900;
-  color: #3D2B5A;
-  height: 1650px;
-}
-
-
-
-div.projectContainer div#project1 {
-  margin-top: 15%;
-}
-div.projectContainer div#project2 {
-  margin-top: 15%;
-}
-div.projectContainer div#project3 {
-  margin-top: 15%;
-}
-
-
-div.projectContainer div#project1 .languages {
-  float: left;
-  width: 40%;
-  margin-left: -24.5%;
-  position: relative;
-  z-index: 950;
-}
-
-div.projectContainer div#project2 .languages {
-  float: right;
-  width: 40%;
-  margin-right: -34%;
-  position: relative;
-  z-index: 950;
-}
-div.projectContainer div#project3 .languages {
-  float: left;
-  width: 40%;
-  margin-left: -19%;
-  position: relative;
-  z-index: 950;
-}
-
-div.projectContainer div#project1 .description {
-  float: left;
-  text-align: left;
-  margin-left: -34%;
-  width: 40%;
-  margin-top: 50px;
-  position: relative;
-  z-index: 950;
-}
-
-div.projectContainer div#project2 .description {
-  float: right;
-  text-align: right;
-  margin-right: -33%;
-  width: 40%;
-  margin-top: 50px;
-  position: relative;
-  z-index: 950;
-}
-div.projectContainer div#project3 .description {
-  float: left;
-  text-align: left;
-  margin-left: -37.5%;
-  width: 40%;
-  margin-top: 50px;
-  position: relative;
-  z-index: 950;
-}
-
-div.projectContainer div#project1 .links {
-  float: left;
-  text-align: left;
-  margin-top: -5%;
-  margin-left: -6%;
-  position: relative;
-  z-index: 950;
-}
-
-div.projectContainer div#project2 .links {
-  float: right;
-  text-align: right;
-  margin-top: -3.5%;
-  margin-right: -4.5%;
-  position: relative;
-  z-index: 950;
-}
-div.projectContainer div#project3 .links {
-  float: left;
-  text-align: left;
-  margin-top: -5%;
-  margin-left: -6%;
-  position: relative;
-  z-index: 950;
-}
-
-
-div.projectContainer div#project1 button {
-  float: left;
-  margin-top: 0;
-  margin-left: -2%;
-  position: relative;
-  z-index: 950;
-}
-
-
-div.projectContainer div#project3 button {
-  float: left;
-  margin-top: 0;
-  margin-left: -7%;
-  position: relative;
-  z-index: 950;
-}
-
- */
