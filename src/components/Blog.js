@@ -6,7 +6,6 @@ class Blog extends Component {
   render() {
     return (
       <div id="blog" onMouseOver={() => this.props.changeActive("blog")}>
-      <div className="info">
       <img src={require('../images/blog-background2.png')} />
       <h1 className="title">BLOG</h1>
       <div id="post">
@@ -16,7 +15,6 @@ class Blog extends Component {
       </a><br/>
       </div>
       <div id="button"><a href="https://medium.com/@97sarahy/" target="_blank">More Articles</a></div>
-      </div>
       </div>
     );
   }

@@ -52,7 +52,6 @@ class Portfolio extends Component {
   render() {
     return (
       <div id="portfolio" onMouseOver={() => this.props.changeActive("portfolio")}>
-      <div className="info">
       <h1 id="title">PROJECTS</h1>
       {
         this.state.modal
@@ -98,6 +97,7 @@ class Portfolio extends Component {
                   <br/>
                   <button onClick={() => this.openModal("musico")}>Video Demo</button>
                 </div>
+                <div className="filler" />
                 <div className="section2">
                   <p className="details">+ Used Firebase to show live updates<br/>
                   + Used the Spotify api to authenticate users, search playlists and play music<br/>
@@ -119,6 +119,7 @@ class Portfolio extends Component {
                   + Hosted on Heroku
                   </p>
                 </div>
+                <div className="filler" />
                 <div className="section2">
                   <p className="languages">HTML5 <span className="dot">&#8231;</span> CSS <span className="dot">&#8231;</span> JAVASCRIPT</p>
                   <p className="description">Great way to play live Rummikub with friends online</p>
@@ -148,6 +149,7 @@ class Portfolio extends Component {
                   <br/>
                   <button onClick={() => this.openModal("trippy")}>Video Demo</button>
                 </div>
+                <div className="filler" />
                 <div className="section2">
                   <p className="details">
                   + Used JWT to build custom authentication and authorization functionality<br/>
@@ -162,7 +164,6 @@ class Portfolio extends Component {
       }
       <br/><br/><br/>
       <h1 id="coding">&lt;/&gt;</h1>
-      </div>
       </div>
     );
   }
