@@ -28,15 +28,6 @@ div#blog .title {
   margin-top: -28%;
 }
 
-div#blog div#post {
-  margin-top: 30%;
-  margin-left: 15%;
-  margin-right: 15%;
-  border: 2px solid #E6E6E6;
-  border-radius: 6px;
-  text-align: left;
-}
-
 div#blog div#post img {
   position: relative;
   width: 95%;
@@ -70,4 +61,49 @@ div#blog div#post h2 {
 #blog p#deets {
   color: #9F9F9F;
   padding-left: 6.5%;
+}
+
+
+@media only screen and (min-width: 1280px)  {
+  div#blog div#post {
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px solid #E6E6E6;
+    border-radius: 6px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 1279px)  {
+  div#blog div#post {
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px solid #E6E6E6;
+    border-radius: 6px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 830px)  {
+  div#blog .title {
+    margin-top: -35%;
+    font-size: 2.5em;
+  }
+  div#blog div#post {
+    margin-top: 40%;
+  }
+
+  #blog div#button {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 550px)  {
+  div#blog .title {
+    margin-top: -40%;
+    font-size: 2em;
+  }
 }

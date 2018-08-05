@@ -99,10 +99,10 @@ class Portfolio extends Component {
                 </div>
                 <div className="filler" />
                 <div className="section2">
-                  <p className="details">+ Used Firebase to show live updates<br/>
-                  + Used the Spotify api to authenticate users, search playlists and play music<br/>
-                  + Built it as a progressive web app so that it is compatible with phones and computers<br/>
-                  + Used custom CSS to create a clean ui<br/>
+                  <p className="details">+ Used Firebase for live updates<br/>
+                  + Used the Spotify api to authenticate users, and play music<br/>
+                  + Used custom CSS to create a clean ui and responsive design <br/>
+                  + Progressive web app <br/>
                   + Hosted on Firebase
                   </p>
                 </div>

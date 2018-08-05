@@ -7,7 +7,7 @@ class Nav extends Component {
     return (
       <div id="nav">
         <h3 className="title" style={{"fontWeight":"100", "paddingTop":"15px"}}>SARAH YISKAH</h3>
-        <span style={{"letterSpacing":"-0.5px"}}>_____</span>
+        <span id="navLine" style={{"letterSpacing":"-0.5px"}}>_____</span>
         <h3
           onClick={() => this.props.changeActive("about")}
           style={this.props.active === "about" ? {"text-decoration": "underline"} : null }>
