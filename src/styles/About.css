@@ -1,7 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo');
 
+div#about img {
+  /* height: 30%; */
+  /* width: 50%; */
+  width: 395.5px;
+  height: 533px;
+  /* width: 100%;
+  min-width: 382px;
+  max-width: 395.5px; */
+  position: relative;
+  z-index: 920;
+}
 
-@media only screen and (min-width: 1000px)  {
+div#about #alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 980;
+  color: white;
+  background-color: #3D2B5A;
+  height: 50px;
+}
+
+div#about {
+  background-color: #FF9298;
+  width: 100%;
+}
+
+
+div#about .text {
+  color: white;
+  position: relative;
+  float: right;
+  text-align: left;
+  line-height: 30px;
+  z-index: 950;
+  letter-spacing: 1px;
+}
+
+div#about .text .title {
+  font-family: 'Chivo', sans-serif;
+  letter-spacing: 5px;
+  font-size: 2.5em;
+}
+
+#about a {
+  padding: 15px;
+  font-size: 1.2em;
+  background-color: #3D2B5A;
+  border: 1px solid #3D2B5A;
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 1000px) {
 
   div#aboutContainer {
     display: flex;
@@ -78,8 +130,6 @@
     flex: 5;
     margin: auto;
     margin-top: 15%;
-    /* margin-left: 20%;
-    margin-right: 5%; */
     height: 500px;
     position: relative;
   }
@@ -91,8 +141,6 @@
     height: 535px;
     margin: auto;
     margin-top: 10%;
-    /* margin-right: 15%;
-    margin-left: 5%; */
     text-align: left;
     line-height: 30px;
     z-index: 950;
@@ -103,105 +151,3 @@
     display: none;
   }
 }
-
-
-
-
-div#about img {
-  /* height: 30%; */
-  /* width: 50%; */
-  /* width: 395.5px;
-  height: 533px; */
-  width: 100%;
-  min-width: 382px;
-  max-width: 395.5px;
-  position: relative;
-  z-index: 920;
-}
-
-div#about #alert {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 980;
-  color: white;
-  background-color: #3D2B5A;
-  height: 50px;
-}
-
-
-div#about {
-  background-color: #FF9298;
-  width: 100%;
-}
-
-
-
-
-
-
-div#about .text {
-  color: white;
-  position: relative;
-  float: right;
-  text-align: left;
-  line-height: 30px;
-  z-index: 950;
-  letter-spacing: 1px;
-}
-
-div#about .text .title {
-  font-family: 'Chivo', sans-serif;
-  letter-spacing: 5px;
-  font-size: 2.5em;
-}
-
-#about a {
-  padding: 15px;
-  font-size: 1.2em;
-  background-color: #3D2B5A;
-  border: 1px solid #3D2B5A;
-  border-radius: 8px;
-}
-
-  /* div#about #background{
-    position: absolute;
-    top: 0px;
-    left: 0;
-    right: 0;
-    background-color: #FF9298;
-    margin-top: 0;
-    height: 640px;
-    z-index: 500;
-  }
-
- 1118111811181118111811181118
- 1118
-
-
-  div#about img {
-    position: relative;
-      padding: 5px;
-      width: 395.5px;
-      height: 533px;
-      margin-left: 5%;
-      float: left;
-      z-index: 940;
-  }
-
-
-
-  div#about .text #coding {
-    color: #3D2B5A;
-    font-weight: 900;
-    font-size: 4em;
-  }
-
-  div#about .info{
-    margin-top: 11%;
-    margin-left: 15%;
-    margin-right: 5%;
-  }
-
-*/
