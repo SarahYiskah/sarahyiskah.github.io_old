@@ -486,6 +486,15 @@ div.projectContainer div.container div.filler{
   }
 
 
+}
 
-
+@media only screen and (max-width: 830px)  {
+  div#portfolio h1#coding {
+    font-size: 2em;
+    position: relative;
+    margin-right: 24%;
+    text-align: right;
+    color: #3D2B5A;
+    margin-bottom: -25px;
+  }
 }
