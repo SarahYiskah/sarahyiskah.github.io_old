@@ -411,7 +411,7 @@ div.projectContainer div.container div.filler{
     z-index: 950;
     display: block;
     margin-top: 20%;
-    height: 90vh;
+    height: 75vh;
   }
 
 
@@ -419,17 +419,18 @@ div.projectContainer div.container div.filler{
     position: absolute;
     width: 80%;
     left: 13%;
-    top: 12%;
+    top: 14%;
     z-index: 950;
+    line-height: 1.3;
   }
 
   div.projectContainer p.description {
     position: absolute;
     width: 70%;
     left: 13%;
-    top: 18%;
+    top: 20%;
     z-index: 950;
-    line-height: 1.5;
+    line-height: 1.3;
   }
 
   div.projectContainer div#project1 p.details {
@@ -440,7 +441,7 @@ div.projectContainer div.container div.filler{
     top: 31%;
     bottom: 30%;
     z-index: 950;
-    line-height: 1.5;
+    line-height: 1.3;
 
   }
 
@@ -452,7 +453,7 @@ div.projectContainer div.container div.filler{
     top: 30%;
     bottom: 30%;
     z-index: 950;
-    line-height: 1.5;
+    line-height: 1.3;
 
   }
 
@@ -464,12 +465,12 @@ div.projectContainer div.container div.filler{
     top: 30%;
     bottom: 30%;
     z-index: 950;
-    line-height: 1.5;
+    line-height: 1.3;
   }
 
   div.projectContainer div.links {
     position: absolute;
-    line-height: 0.5;
+    line-height: 1;
     width: 70%;
     left: 13%;
     bottom: 18%;
@@ -497,4 +498,89 @@ div.projectContainer div.container div.filler{
     color: #3D2B5A;
     margin-bottom: -25px;
   }
+}
+
+@media only screen and (max-width: 400px)  {
+
+    div.projectContainer div.container {
+      position: relative;
+      z-index: 950;
+      display: block;
+      margin-top: 20%;
+      height: 85vh;
+    }
+
+
+    div.projectContainer p.languages {
+      position: absolute;
+      width: 80%;
+      left: 13%;
+      top: 12%;
+      z-index: 950;
+    }
+
+    div.projectContainer p.description {
+      position: absolute;
+      width: 70%;
+      left: 13%;
+      top: 18%;
+      z-index: 950;
+      line-height: 1.5;
+    }
+
+    div.projectContainer div#project1 p.details {
+      position: absolute;
+      width: 70%;
+      left: 13%;
+      right: 13%;
+      top: 32%;
+      bottom: 30%;
+      z-index: 950;
+      line-height: 1.3;
+    }
+
+    div.projectContainer div#project1 p.description{
+      line-height: 1.3;
+    }
+
+    div.projectContainer div#project2 p.details {
+      position: absolute;
+      width: 70%;
+      left: 13%;
+      right: 13%;
+      top: 32%;
+      bottom: 30%;
+      z-index: 950;
+      line-height: 1.4;
+
+    }
+
+    div.projectContainer div#project3 p.details {
+      position: absolute;
+      width: 70%;
+      left: 13%;
+      right: 13%;
+      top: 32%;
+      bottom: 30%;
+      z-index: 950;
+      line-height: 1.4;
+    }
+
+    div.projectContainer div.links {
+      position: absolute;
+      line-height: 1;
+      width: 70%;
+      left: 13%;
+      bottom: 18%;
+      z-index: 950;
+    }
+
+    div.projectContainer button {
+      position: absolute;
+      width: 70%;
+      left: 13%;
+      top: 85%;
+      bottom: 5%;
+      z-index: 950;
+    }
 }

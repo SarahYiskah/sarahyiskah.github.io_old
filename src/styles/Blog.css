@@ -106,4 +106,50 @@ div#blog div#post h2 {
     margin-top: -40%;
     font-size: 2em;
   }
+  div#blog div#post {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  #blog div#button {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  div#blog div#smallFlex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div#blog1 {
+    flex: 3;
+    margin: 0;
+    padding: 0;
+  }
+
+ div#blog div#post h2 {
+    margin: 5px;;
+    line-height: 1.5;
+    font-size: 1em;
+    padding-left: 5%;
+  }
+
+  #blog a {
+    margin: 0;
+  }
+
+  #blog p#deets {
+    margin: 5px;;
+    line-height: 1.5;
+    font-size: 1em;
+    padding-left: 5%;
+  }
+
+
+  div#blog2 {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+
 }
