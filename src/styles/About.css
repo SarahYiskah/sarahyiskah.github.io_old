@@ -53,6 +53,18 @@ div#about .text .title {
   border-radius: 8px;
 }
 
+@media only screen and (max-width: 1417px)  {
+  div#about .text {
+    line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 1229px)  {
+  div#about .text {
+    line-height: 27px;
+  }
+}
+
 @media only screen and (min-width: 1000px) {
 
   div#aboutContainer {
@@ -87,8 +99,6 @@ div#about .text .title {
     max-width: 30%;
     height: 535px;
     margin-top: 10%;
-    /* margin-right: 15%;
-    margin-left: 5%; */
     text-align: left;
     line-height: 30px;
     z-index: 950;
@@ -115,6 +125,10 @@ div#about .text .title {
     justify-content: space-between;
     width: 100%;
     flex-wrap: wrap;
+  }
+
+  div#about .text {
+    line-height: 28px;
   }
 
   div#aboutContainer div.placeholder {
@@ -162,7 +176,7 @@ div#about .text .title {
   }
 
   div#about .text {
-    line-height: 29px;
+    line-height: 27px;
   }
 
   #about a {

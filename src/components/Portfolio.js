@@ -94,7 +94,6 @@ class Portfolio extends Component {
                   <a style={{"margin-left":"5px"}} href="https://github.com/SarahYiskah/musico-backend" target="_blank">Github Backend</a>
                   <a style={{"margin-left":"5px"}} href="http://musico-backend.herokuapp.com/login" target="_blank">Live App</a>
                   </div>
-                  <br/>
                   <button onClick={() => this.openModal("musico")}>Video Demo</button>
                 </div>
                 <div className="filler" />

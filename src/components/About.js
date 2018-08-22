@@ -18,7 +18,7 @@ class About extends Component {
         <div id="about2" className="text">
           <h1 className="title">ABOUT ME</h1>
           <p>Hi there! <br/><br/>
-          I am a full stack web developer with a passion for creating positive user experiences. I have practice in Ruby on Rails, JavaScript, React and Redux. I enjoy problem solving and have an aptitude for learning new languages quickly.
+          I am a full stack web developer with a passion for creating positive user experiences. I have practice in HTML5, CSS, Ruby, Ruby on Rails, JavaScript (ES6), React and Redux. I enjoy problem solving and have an aptitude for learning new languages quickly.
           <br/><br/>
           &lt; 3<br/>
           Sarah Yiskah Eichenstein
