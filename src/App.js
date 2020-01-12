@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
-import Notification from './components/Notification';
-import Nav from './components/Nav';
-import About from './components/About';
-import Blog from './components/Blog';
-import Contact from './components/Contact';
-import Portfolio from './components/Portfolio';
-import Footer from './components/Footer';
+import Nav from './components/Nav'
+import About from './components/About'
+import Blog from './components/Blog'
+import Contact from './components/Contact'
+import Portfolio from './components/Portfolio'
+import Footer from './components/Footer'
 
 
 
@@ -28,7 +27,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Notification />
       <Nav active={this.state.active} changeActive={this.changeActive}/>
       <About changeActive={this.changeActive}/>
       <Portfolio changeActive={this.changeActive}/>
